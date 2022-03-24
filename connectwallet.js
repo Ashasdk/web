@@ -12,7 +12,7 @@ export const updateMetaMaskStatus = async () => {
     const connected = isMetaMaskConnected()
     if (connected) {
         const button = document.querySelector(window.buttonID ?? '#connect');
-        button.textContent = "Metamask connected";
+        button.textContent = "Connected";
     }
 }
 
